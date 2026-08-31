@@ -115,19 +115,18 @@ ORDER BY naics_code, total_sales DESC;
 
 
 -- outliers or significant changes in sales based on industries
-SELECT industry, year, month, sales
-FROM   retail_sales
-WHERE (industry, year, month) IN (
-       SELECT industry, year, month
-       FROM (SELECT industry, year, month, sales,
-                LAG(sales) OVER (PARTITION BY industry 
-                                 ORDER BY year, month) AS prev_sales,
-                LEAD(sales) OVER (PARTITION BY industry 
-                                  ORDER BY year, month) AS next_sales
-             FROM retail_sales) AS sales_analysis
-       WHERE sales > 1.5 * COALESCE(prev_sales, 0) OR 
-             sales > 1.5 * COALESCE(next_sales, 0)
+WITH sales_analysis AS (
+    SELECT industry, year, month, sales,
+           LAG(sales) OVER (PARTITION BY industry ORDER BY year, month) 
+           AS prev_sales,
+           LEAD(sales) OVER (PARTITION BY industry ORDER BY year, month) 
+           AS next_sales
+    FROM   retail_sales
 )
+SELECT industry, year, month, sales
+FROM   sales_analysis
+WHERE  sales > 1.5 * ISNULL(prev_sales, 0)
+   OR  sales > 1.5 * ISNULL(next_sales, 0)
 ORDER BY industry, year, month;
 
 
@@ -192,45 +191,48 @@ GROUP BY year;
 
 
 -- yearly ratio of total sales for women's clothing vs men's clothing stores
-SELECT year, women_sales/men_sales as Women_to_Men_ratio
-FROM (
-        SELECT year,
-        sum(CASE WHEN kind_of_business = 'Women''s clothing stores' 
-            THEN sales ELSE 0 END) as women_sales,
-        sum(CASE WHEN kind_of_business = 'Men''s clothing stores' 
-            THEN sales ELSE 0 END) as men_sales
-        FROM retail_sales
-        GROUP BY 1
-) subquery;
+SELECT year, women_sales * 1.0 / NULLIF(men_sales, 0) AS Women_to_Men_ratio
+FROM (SELECT year,
+      SUM(CASE WHEN kind_of_business = 'Women''s clothing stores' 
+          THEN sales ELSE 0 END) 
+      AS women_sales,
+      SUM(CASE WHEN kind_of_business = 'Men''s clothing stores' 
+          THEN sales ELSE 0 END) 
+      AS men_sales
+      FROM dbo.retail_sales
+      GROUP BY year) 
+subquery;
 
 
 
 -- year-to-date total sale of each month for 2019, 2020, 2021, and 2022
-SELECT rs.month, rs.year, rs.sales,
-    ((SELECT SUM(sales)
-      FROM retail_sales rs2
-      WHERE rs2.year = rs.year
-      AND rs2.month <= rs.month
-      AND rs2.kind_of_business = 'Women\'s clothing stores')) 
-      AS ytd_sales
-FROM  retail_sales AS rs
-WHERE rs.kind_of_business = 'Women\'s clothing stores'
-      AND rs.year IN (2019, 2020, 2021, 2022);
+SELECT month, year, sales, SUM(sales) OVER (
+       PARTITION BY year ORDER BY month 
+       ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+     ) AS ytd_sales
+FROM   retail_sales
+WHERE  kind_of_business = 'Women''s clothing stores'
+  AND  year IN (2019, 2020, 2021, 2022)
+ORDER BY year, month;
 
 
 
 -- month-over-month growth rate of women's clothing businesses in 2022
 -- Query 1
-SELECT month, sales AS current_sales,
-       LAG(sales, 1) OVER (ORDER BY month) AS prev_sales
+SELECT month, sales  AS current_sales, 
+       LAG(sales, 1) OVER (ORDER BY [month]) 
+       AS prev_sales
 FROM   retail_sales
-WHERE  kind_of_business = 'Women\'s clothing stores' AND year = 2022;
+WHERE  kind_of_business = 'Women''s clothing stores' 
+  AND  year = 2022;
 
--- Query 2
-SELECT month, sales AS current_sales, LAG(sales, 1) OVER (ORDER BY month) 
+SELECT month, sales AS current_sales, 
+       LAG(sales, 1) OVER (ORDER BY [month])
        AS prev_sales,
-      (sales - LAG(sales, 1) OVER (ORDER BY month)) / LAG(sales, 1) 
-       OVER (ORDER BY month) * 100 AS growth_rate
+      (sales - LAG(sales, 1) 
+       OVER (ORDER BY [month])) * 100.0 / NULLIF(LAG(sales, 1) 
+       OVER (ORDER BY [month]), 0) AS growth_rate
 FROM   retail_sales
-WHERE  kind_of_business = 'Women\'s clothing stores' AND year = 2022;
+WHERE  kind_of_business = 'Women''s clothing stores' 
+  AND  year = 2022;
 
