@@ -1,0 +1,338 @@
+﻿year,industry,kind_of_business,average_sales
+2010,Automotive,Automobile and other motor vehicle dealers,55414
+2010,Automotive,Automobile dealers,51765
+2010,Automotive,Motor vehicle and parts dealers,61909
+2010,Automotive,New car dealers,45789
+2010,Fashion & Accessories,Clothing and clothing access. stores,17773
+2010,Fashion & Accessories,Clothing stores,13189
+2010,Food & Beverage,Food and beverage stores,48377
+2010,Food & Beverage,Grocery stores,43395
+2010,Food & Beverage,Supermarkets and other grocery (except convenience) stores,41500
+2010,Food & Beverage,Warehouse clubs and superstores,30666
+2010,Fuel & Gasoline,Gasoline stations,37362
+2010,General Merchandise,Department stores,15396
+2010,General Merchandise,General merchandise stores,50313
+2010,General Merchandise,Other general merchandise stores,34916
+2010,Health & Personal Care,Health and personal care stores,21702
+2010,Health & Personal Care,Pharmacies and drug stores,18519
+2010,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,21713
+2010,Home Goods & Building Supplies,Building mat. and supplies dealers,18809
+2010,Home Goods & Electronics,Electronic shopping and mail-order houses,21957
+2010,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",15399
+2010,Miscellaneous,Nonstore retailers,28413
+2010,Restaurants & Bars,Food services and drinking places,38910
+2010,Restaurants & Bars,Full service restaurants,16558
+2010,Restaurants & Bars,Limited service eating places,16938
+2010,Restaurants & Bars,Restaurants and other eating places,33496
+2011,Automotive,Automobile and other motor vehicle dealers,60831
+2011,Automotive,Automobile dealers,57042
+2011,Automotive,Motor vehicle and parts dealers,67744
+2011,Automotive,New car dealers,50732
+2011,Fashion & Accessories,Clothing and clothing access. stores,19050
+2011,Fashion & Accessories,Clothing stores,14007
+2011,Food & Beverage,Food and beverage stores,50761
+2011,Food & Beverage,Grocery stores,45623
+2011,Food & Beverage,Supermarkets and other grocery (except convenience) stores,43614
+2011,Food & Beverage,Warehouse clubs and superstores,32195
+2011,Fuel & Gasoline,Gasoline stations,44454
+2011,General Merchandise,Department stores,15280
+2011,General Merchandise,General merchandise stores,52063
+2011,General Merchandise,Other general merchandise stores,36783
+2011,Health & Personal Care,Health and personal care stores,22634
+2011,Health & Personal Care,Pharmacies and drug stores,19270
+2011,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,22456
+2011,Home Goods & Building Supplies,Building mat. and supplies dealers,19387
+2011,Home Goods & Electronics,Electronic shopping and mail-order houses,24558
+2011,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",15797
+2011,Miscellaneous,Nonstore retailers,31362
+2011,Restaurants & Bars,Food services and drinking places,41279
+2011,Restaurants & Bars,Full service restaurants,17823
+2011,Restaurants & Bars,Limited service eating places,17854
+2011,Restaurants & Bars,Restaurants and other eating places,35677
+2012,Automotive,Automobile and other motor vehicle dealers,66863
+2012,Automotive,Automobile dealers,62731
+2012,Automotive,Motor vehicle and parts dealers,73874
+2012,Automotive,New car dealers,56045
+2012,Fashion & Accessories,Clothing and clothing access. stores,19957
+2012,Fashion & Accessories,Clothing stores,14677
+2012,Food & Beverage,Food and beverage stores,52350
+2012,Food & Beverage,Grocery stores,46970
+2012,Food & Beverage,Supermarkets and other grocery (except convenience) stores,44931
+2012,Food & Beverage,Warehouse clubs and superstores,33859
+2012,Fuel & Gasoline,Gasoline stations,46284
+2012,General Merchandise,Department stores,14776
+2012,General Merchandise,General merchandise stores,53526
+2012,General Merchandise,Other general merchandise stores,38750
+2012,Health & Personal Care,Health and personal care stores,22833
+2012,Health & Personal Care,Pharmacies and drug stores,19162
+2012,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,23461
+2012,Home Goods & Building Supplies,Building mat. and supplies dealers,20181
+2012,Home Goods & Electronics,Electronic shopping and mail-order houses,27387
+2012,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",16285
+2012,Miscellaneous,Nonstore retailers,34014
+2012,Restaurants & Bars,Food services and drinking places,43680
+2012,Restaurants & Bars,Full service restaurants,18934
+2012,Restaurants & Bars,Limited service eating places,18829
+2012,Restaurants & Bars,Restaurants and other eating places,37764
+2013,Automotive,Automobile and other motor vehicle dealers,73044
+2013,Automotive,Automobile dealers,68482
+2013,Automotive,Motor vehicle and parts dealers,80171
+2013,Automotive,New car dealers,61423
+2013,Fashion & Accessories,Clothing and clothing access. stores,20430
+2013,Fashion & Accessories,Clothing stores,14930
+2013,Food & Beverage,Food and beverage stores,53459
+2013,Food & Beverage,Grocery stores,47956
+2013,Food & Beverage,Supermarkets and other grocery (except convenience) stores,45832
+2013,Food & Beverage,Warehouse clubs and superstores,35085
+2013,Fuel & Gasoline,Gasoline stations,46142
+2013,General Merchandise,Department stores,14213
+2013,General Merchandise,General merchandise stores,54464
+2013,General Merchandise,Other general merchandise stores,40251
+2013,Health & Personal Care,Health and personal care stores,23295
+2013,Health & Personal Care,Pharmacies and drug stores,19469
+2013,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,24964
+2013,Home Goods & Building Supplies,Building mat. and supplies dealers,21477
+2013,Home Goods & Electronics,Electronic shopping and mail-order houses,28846
+2013,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",16605
+2013,Miscellaneous,Nonstore retailers,35831
+2013,Restaurants & Bars,Food services and drinking places,45292
+2013,Restaurants & Bars,Full service restaurants,19738
+2013,Restaurants & Bars,Limited service eating places,19569
+2013,Restaurants & Bars,Restaurants and other eating places,39308
+2014,Automotive,Automobile and other motor vehicle dealers,78327
+2014,Automotive,Automobile dealers,73415
+2014,Automotive,Motor vehicle and parts dealers,85561
+2014,Automotive,New car dealers,65740
+2014,Fashion & Accessories,Clothing and clothing access. stores,20944
+2014,Fashion & Accessories,Clothing stores,15290
+2014,Food & Beverage,Food and beverage stores,55872
+2014,Food & Beverage,Grocery stores,50124
+2014,Food & Beverage,Supermarkets and other grocery (except convenience) stores,47972
+2014,Food & Beverage,Warehouse clubs and superstores,36395
+2014,Fuel & Gasoline,Gasoline stations,45580
+2014,General Merchandise,Department stores,14064
+2014,General Merchandise,General merchandise stores,55884
+2014,General Merchandise,Other general merchandise stores,41819
+2014,Health & Personal Care,Health and personal care stores,24547
+2014,Health & Personal Care,Pharmacies and drug stores,20553
+2014,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,26127
+2014,Home Goods & Building Supplies,Building mat. and supplies dealers,22512
+2014,Home Goods & Electronics,Electronic shopping and mail-order houses,31407
+2014,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",16949
+2014,Miscellaneous,Nonstore retailers,38680
+2014,Restaurants & Bars,Food services and drinking places,48054
+2014,Restaurants & Bars,Full service restaurants,21286
+2014,Restaurants & Bars,Limited service eating places,20592
+2014,Restaurants & Bars,Restaurants and other eating places,41879
+2015,Automotive,Automobile and other motor vehicle dealers,84385
+2015,Automotive,Automobile dealers,79103
+2015,Automotive,Motor vehicle and parts dealers,91960
+2015,Automotive,New car dealers,70680
+2015,Fashion & Accessories,Clothing and clothing access. stores,21439
+2015,Fashion & Accessories,Clothing stores,15645
+2015,Food & Beverage,Food and beverage stores,57281
+2015,Food & Beverage,Grocery stores,51340
+2015,Food & Beverage,Supermarkets and other grocery (except convenience) stores,49226
+2015,Food & Beverage,Warehouse clubs and superstores,37254
+2015,Fuel & Gasoline,Gasoline stations,37966
+2015,General Merchandise,Department stores,13756
+2015,General Merchandise,General merchandise stores,56677
+2015,General Merchandise,Other general merchandise stores,42921
+2015,Health & Personal Care,Health and personal care stores,25657
+2015,Health & Personal Care,Pharmacies and drug stores,21446
+2015,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,26998
+2015,Home Goods & Building Supplies,Building mat. and supplies dealers,23439
+2015,Home Goods & Electronics,Electronic shopping and mail-order houses,34913
+2015,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",17338
+2015,Miscellaneous,Nonstore retailers,41527
+2015,Restaurants & Bars,Food services and drinking places,52014
+2015,Restaurants & Bars,Full service restaurants,23049
+2015,Restaurants & Bars,Limited service eating places,22398
+2015,Restaurants & Bars,Restaurants and other eating places,45448
+2016,Automotive,Automobile and other motor vehicle dealers,88255
+2016,Automotive,Automobile dealers,82651
+2016,Automotive,Motor vehicle and parts dealers,95976
+2016,Automotive,New car dealers,73621
+2016,Fashion & Accessories,Clothing and clothing access. stores,21790
+2016,Fashion & Accessories,Clothing stores,15884
+2016,Food & Beverage,Food and beverage stores,58501
+2016,Food & Beverage,Grocery stores,52322
+2016,Food & Beverage,Supermarkets and other grocery (except convenience) stores,50078
+2016,Food & Beverage,Warehouse clubs and superstores,38098
+2016,Fuel & Gasoline,Gasoline stations,36330
+2016,General Merchandise,Department stores,12850
+2016,General Merchandise,General merchandise stores,56891
+2016,General Merchandise,Other general merchandise stores,44041
+2016,Health & Personal Care,Health and personal care stores,26577
+2016,Health & Personal Care,Pharmacies and drug stores,22128
+2016,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,28141
+2016,Home Goods & Building Supplies,Building mat. and supplies dealers,24579
+2016,Home Goods & Electronics,Electronic shopping and mail-order houses,38939
+2016,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",17190
+2016,Miscellaneous,Miscellaneous store retailers,10062
+2016,Miscellaneous,Nonstore retailers,45359
+2016,Restaurants & Bars,Food services and drinking places,54822
+2016,Restaurants & Bars,Full service restaurants,23994
+2016,Restaurants & Bars,Limited service eating places,23791
+2016,Restaurants & Bars,Restaurants and other eating places,47786
+2017,Automotive,Automobile and other motor vehicle dealers,91021
+2017,Automotive,Automobile dealers,85048
+2017,Automotive,Motor vehicle and parts dealers,98808
+2017,Automotive,New car dealers,75540
+2017,Fashion & Accessories,Clothing and clothing access. stores,21783
+2017,Fashion & Accessories,Clothing stores,15925
+2017,Food & Beverage,Food and beverage stores,60736
+2017,Food & Beverage,Grocery stores,54431
+2017,Food & Beverage,Supermarkets and other grocery (except convenience) stores,52081
+2017,Food & Beverage,Warehouse clubs and superstores,39181
+2017,Fuel & Gasoline,Gasoline stations,39679
+2017,General Merchandise,Department stores,12221
+2017,General Merchandise,General merchandise stores,57657
+2017,General Merchandise,Other general merchandise stores,45436
+2017,Health & Personal Care,Health and personal care stores,26988
+2017,Health & Personal Care,Pharmacies and drug stores,22421
+2017,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,29113
+2017,Home Goods & Building Supplies,Building mat. and supplies dealers,25455
+2017,Home Goods & Electronics,Electronic shopping and mail-order houses,43719
+2017,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",17311
+2017,Miscellaneous,Miscellaneous store retailers,10265
+2017,Miscellaneous,Nonstore retailers,50682
+2017,Restaurants & Bars,Food services and drinking places,57720
+2017,Restaurants & Bars,Full service restaurants,25147
+2017,Restaurants & Bars,Limited service eating places,25196
+2017,Restaurants & Bars,Restaurants and other eating places,50344
+2018,Automotive,Automobile and other motor vehicle dealers,92499
+2018,Automotive,Automobile dealers,86307
+2018,Automotive,Motor vehicle and parts dealers,100411
+2018,Automotive,New car dealers,76527
+2018,Fashion & Accessories,Clothing and clothing access. stores,22290
+2018,Fashion & Accessories,Clothing stores,16263
+2018,Food & Beverage,Food and beverage stores,62488
+2018,Food & Beverage,Grocery stores,55944
+2018,Food & Beverage,Supermarkets and other grocery (except convenience) stores,53352
+2018,Food & Beverage,Warehouse clubs and superstores,40556
+2018,Fuel & Gasoline,Gasoline stations,43576
+2018,General Merchandise,Department stores,11839
+2018,General Merchandise,General merchandise stores,58924
+2018,General Merchandise,Other general merchandise stores,47084
+2018,Health & Personal Care,Health and personal care stores,28149
+2018,Health & Personal Care,Pharmacies and drug stores,23301
+2018,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,30637
+2018,Home Goods & Building Supplies,Building mat. and supplies dealers,26890
+2018,Home Goods & Electronics,Electronic shopping and mail-order houses,48649
+2018,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",17760
+2018,Miscellaneous,Miscellaneous store retailers,10709
+2018,Miscellaneous,Nonstore retailers,56318
+2018,Restaurants & Bars,Food services and drinking places,61001
+2018,Restaurants & Bars,Full service restaurants,26489
+2018,Restaurants & Bars,Limited service eating places,26771
+2018,Restaurants & Bars,Restaurants and other eating places,53260
+2019,Automotive,Automobile and other motor vehicle dealers,95079
+2019,Automotive,Automobile dealers,88795
+2019,Automotive,Motor vehicle and parts dealers,103145
+2019,Automotive,New car dealers,78569
+2019,Automotive,Used car dealers,10226
+2019,Fashion & Accessories,Clothing and clothing access. stores,22461
+2019,Fashion & Accessories,Clothing stores,16338
+2019,Food & Beverage,Food and beverage stores,64584
+2019,Food & Beverage,Grocery stores,57864
+2019,Food & Beverage,Supermarkets and other grocery (except convenience) stores,55159
+2019,Food & Beverage,Warehouse clubs and superstores,41777
+2019,Fuel & Gasoline,Gasoline stations,42792
+2019,General Merchandise,Department stores,11221
+2019,General Merchandise,General merchandise stores,59705
+2019,General Merchandise,Other general merchandise stores,48484
+2019,Health & Personal Care,Health and personal care stores,28670
+2019,Health & Personal Care,Pharmacies and drug stores,23718
+2019,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,31110
+2019,Home Goods & Building Supplies,Building mat. and supplies dealers,27271
+2019,Home Goods & Electronics,Electronic shopping and mail-order houses,54757
+2019,Home Goods & Electronics,Furniture and home furnishings stores,10054
+2019,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",17632
+2019,Miscellaneous,Miscellaneous store retailers,10883
+2019,Miscellaneous,Nonstore retailers,62553
+2019,Restaurants & Bars,Food services and drinking places,64395
+2019,Restaurants & Bars,Full service restaurants,27798
+2019,Restaurants & Bars,Limited service eating places,28417
+2019,Restaurants & Bars,Restaurants and other eating places,56216
+2020,Automotive,Automobile and other motor vehicle dealers,92526
+2020,Automotive,Automobile dealers,85264
+2020,Automotive,Motor vehicle and parts dealers,100692
+2020,Automotive,New car dealers,75457
+2020,Fashion & Accessories,Clothing and clothing access. stores,16785
+2020,Fashion & Accessories,Clothing stores,11523
+2020,Food & Beverage,Food and beverage stores,70851
+2020,Food & Beverage,Grocery stores,63312
+2020,Food & Beverage,Supermarkets and other grocery (except convenience) stores,60738
+2020,Food & Beverage,Warehouse clubs and superstores,43924
+2020,Fuel & Gasoline,Gasoline stations,35673
+2020,General Merchandise,General merchandise stores,60880
+2020,General Merchandise,Other general merchandise stores,51519
+2020,Health & Personal Care,Health and personal care stores,29271
+2020,Health & Personal Care,Pharmacies and drug stores,24898
+2020,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,35184
+2020,Home Goods & Building Supplies,Building mat. and supplies dealers,30708
+2020,Home Goods & Electronics,Electronic shopping and mail-order houses,74041
+2020,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",15750
+2020,Miscellaneous,Miscellaneous store retailers,10555
+2020,Miscellaneous,Nonstore retailers,81525
+2020,Restaurants & Bars,Food services and drinking places,54101
+2020,Restaurants & Bars,Full service restaurants,27604
+2020,Restaurants & Bars,Limited service eating places,27486
+2020,Restaurants & Bars,Restaurants and other eating places,48636
+2021,Automotive,Automobile and other motor vehicle dealers,114003
+2021,Automotive,Automobile dealers,104822
+2021,Automotive,Motor vehicle and parts dealers,123343
+2021,Automotive,New car dealers,91305
+2021,Automotive,Used car dealers,13516
+2021,Fashion & Accessories,Clothing and clothing access. stores,24505
+2021,Fashion & Accessories,Clothing stores,16544
+2021,Food & Beverage,Food and beverage stores,73355
+2021,Food & Beverage,Grocery stores,65263
+2021,Food & Beverage,Supermarkets and other grocery (except convenience) stores,62319
+2021,Food & Beverage,Warehouse clubs and superstores,47916
+2021,Fuel & Gasoline,Gasoline stations,48624
+2021,General Merchandise,Department stores,11067
+2021,General Merchandise,General merchandise stores,67024
+2021,General Merchandise,Other general merchandise stores,55956
+2021,Health & Personal Care,Health and personal care stores,32115
+2021,Health & Personal Care,Pharmacies and drug stores,26674
+2021,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,39815
+2021,Home Goods & Building Supplies,Building mat. and supplies dealers,34688
+2021,Home Goods & Electronics,Electronic shopping and mail-order houses,87188
+2021,Home Goods & Electronics,Furniture and home furnishings stores,11830
+2021,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",19678
+2021,Miscellaneous,Miscellaneous store retailers,13534
+2021,Miscellaneous,Nonstore retailers,96103
+2021,Restaurants & Bars,Food services and drinking places,73028
+2021,Restaurants & Bars,Limited service eating places,32703
+2021,Restaurants & Bars,Restaurants and other eating places,64573
+2022,Automotive,Automobile and other motor vehicle dealers,116977
+2022,Automotive,Automobile dealers,107015
+2022,Automotive,"Automotive parts, acc., and tire stores",10349
+2022,Automotive,Motor vehicle and parts dealers,127327
+2022,Automotive,New car dealers,93614
+2022,Automotive,Used car dealers,13400
+2022,Fashion & Accessories,Clothing and clothing access. stores,26032
+2022,Fashion & Accessories,Clothing stores,17810
+2022,Fashion & Accessories,Family clothing stores,10168
+2022,Food & Beverage,Food and beverage stores,78962
+2022,Food & Beverage,Grocery stores,70717
+2022,Food & Beverage,Supermarkets and other grocery (except convenience) stores,67543
+2022,Food & Beverage,Warehouse clubs and superstores,49583
+2022,Fuel & Gasoline,Gasoline stations,63158
+2022,General Merchandise,Department stores,11184
+2022,General Merchandise,General merchandise stores,69195
+2022,General Merchandise,Other general merchandise stores,58011
+2022,Health & Personal Care,Health and personal care stores,33308
+2022,Health & Personal Care,Pharmacies and drug stores,27397
+2022,Home Goods & Building Supplies,Building mat. and garden equip. and supplies dealers,42479
+2022,Home Goods & Building Supplies,Building mat. and supplies dealers,37037
+2022,Home Goods & Electronics,Electronic shopping and mail-order houses,96279
+2022,Home Goods & Electronics,Furniture and home furnishings stores,11954
+2022,Home Goods & Electronics,"Furniture, home furn, electronics, and appliance stores",19204
+2022,Miscellaneous,Miscellaneous store retailers,15542
+2022,Miscellaneous,Nonstore retailers,106950
+2022,Restaurants & Bars,Food services and drinking places,85324
+2022,Restaurants & Bars,Limited service eating places,36660
+2022,Restaurants & Bars,Restaurants and other eating places,74098
